@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reiki-new Life</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bg2.jpg');
+        color: white;
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 23px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 50px;
+        padding: 5px 20px;
+    }
+
+    .left div {
+        margin-top: 0px;
+        line-height: 1px;
+        color: rgb(245, 243, 234);
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 35%;
+        margin: 30px auto;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+
+    }
+
+    .navbar li a {
+        color: rgb(44, 22, 22);
+        text-decoration: none;
+        padding: 28px 18px;
+    }
+
+    .navbar li a:hover {
+        color: yellow;
+        text-decoration: underline;
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid purple; */
+        position: absolute;
+        right: 23px;
+        top: 30px;
+    }
+
+    .btn {
+        margin: 6px 8px;
+        padding: 4px 3px;
+        border: 2px solid rgb(53, 51, 51);
+        border-radius: 8px;
+        font-size: 13px;
+        cursor: pointer;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        /* border: 2px solid grey; */
+        margin: 60px 55px;
+        padding: 32px 65px;
+        width: 30%;
+        border-radius: 8px;
+    }
+
+    .form-group input {
+        margin: 4px 2px;
+        padding: 4px 10px;
+        width: 60%;
+        text-align: center;
+        font-size: 16px;
+        display: block;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-family: 'Baloo 2', cursive;
+    }
+
+    .container button {
+        display: block;
+        margin: 6px 73px;
+        width: 33%;
+        background-color: white;
+        border: 2px solid grey;
+        border-radius: 5px;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/rlogo.jpg" alt="">
+            <div>Reiki-new Life</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">What is Reiki</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join to see a new Phase of LIFE</h2>
+        <form action="noaction.js">
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Enter your phone no.">
+            </div>
+            <div class="form-group">
+                <input type="text" name=" " placeholder="Write your query">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
